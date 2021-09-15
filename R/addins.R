@@ -1,6 +1,20 @@
-library(purrr)
-library(openxlsx)
-library(data.table)
+#' @import magrittr
+#' @import purrr
+#' @import data.table
+#' @import stringi
+NULL
+
+#' @title dupItem
+#' @param x  x
+#' @export
+dupItem <- \ (x) x[duplicated(x) | duplicated(x, fromLast = T)]
+
+#' @title dupIndex
+#' @param x  x
+#' @export
+
+dupIndex <- \ (x) duplicated(x) | duplicated(x, fromLast = T)
+
 Rmd2md <- function() {
   knitr::knit(rstudioapi::getSourceEditorContext()$path)
 }
