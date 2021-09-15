@@ -1,0 +1,30 @@
+Name: Rmd2md
+Description: Rmd2md
+Binding: Rmd2md
+Interactive: false
+
+Name: hugoRmd
+Description: hugoRmd
+Binding: hugoRmd
+Interactive: false
+
+Name: insertLIKE
+Description: insertLIKE
+Binding: insertLIKE
+Interactive: false
+
+Name: insertIN
+Description: insertIN
+Binding: insertIN
+Interactive: false
+
+Name: insertView
+Description: insertView
+Binding: insertView
+Interactive: false
+
+
+Name: insertPaste
+Description: insertPaste
+Binding: insertPaste
+Interactive: insertPaste
