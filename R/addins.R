@@ -17,7 +17,7 @@ hugoRmd <- function() {
 }
 
 
-insertLIKE <- \()  rstudioapi::insertText(" %like% ")
-insertIN <- \()  rstudioapi::insertText(" %in% ")
-insertView <- \()  rstudioapi::insertText(" %>% View() ")
-insertPaste <- \()  rstudioapi::insertText(" %s+% ")
+insertLIKE <- \ ()  rstudioapi::insertText(" %like% ")
+insertIN <- \ ()  rstudioapi::insertText(" %in% ")
+insertView <- \ ()  rstudioapi::insertText(" %>% View() ")
+insertPaste <- \ ()  rstudioapi::insertText(" %s+% ")
