@@ -1,0 +1,6 @@
+{
+    "Raddins::insertIN": "Ctrl+Shift+I",
+    "Raddins::insertLIKE": "Ctrl+Shift+L",
+    "Raddins::insertView": "Ctrl+Shift+V",
+    "Raddins::insertPaste": "Ctrl+Shift+P"
+}
