@@ -1,8 +1,7 @@
-#' @import magrittr
-#' @import purrr
-#' @import data.table
-#' @import stringi
-NULL
+#' @title open current working dir
+#' @export
+xo <- \ () system(sprintf("xdg-open %s", getwd()))
+
 
 #' @title dupItem
 #' @param x  x
@@ -12,7 +11,6 @@ dupItem <- \ (x) x[duplicated(x) | duplicated(x, fromLast = T)]
 #' @title dupIndex
 #' @param x  x
 #' @export
-
 dupIndex <- \ (x) duplicated(x) | duplicated(x, fromLast = T)
 
 Rmd2md <- function() {
